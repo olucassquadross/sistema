@@ -13,3 +13,18 @@ C:\Users\Daniel\sistema\obj\Debug\net8.0\refint\sistema.dll
 C:\Users\Daniel\sistema\obj\Debug\net8.0\sistema.pdb
 C:\Users\Daniel\sistema\obj\Debug\net8.0\sistema.genruntimeconfig.cache
 C:\Users\Daniel\sistema\obj\Debug\net8.0\ref\sistema.dll
+C:\Users\lucia\OneDrive\Área de Trabalho\devStar\Lucas Quadros\sistema\bin\Debug\net8.0\sistema.exe
+C:\Users\lucia\OneDrive\Área de Trabalho\devStar\Lucas Quadros\sistema\bin\Debug\net8.0\sistema.deps.json
+C:\Users\lucia\OneDrive\Área de Trabalho\devStar\Lucas Quadros\sistema\bin\Debug\net8.0\sistema.runtimeconfig.json
+C:\Users\lucia\OneDrive\Área de Trabalho\devStar\Lucas Quadros\sistema\bin\Debug\net8.0\sistema.dll
+C:\Users\lucia\OneDrive\Área de Trabalho\devStar\Lucas Quadros\sistema\bin\Debug\net8.0\sistema.pdb
+C:\Users\lucia\OneDrive\Área de Trabalho\devStar\Lucas Quadros\sistema\obj\Debug\net8.0\sistema.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucia\OneDrive\Área de Trabalho\devStar\Lucas Quadros\sistema\obj\Debug\net8.0\sistema.AssemblyInfoInputs.cache
+C:\Users\lucia\OneDrive\Área de Trabalho\devStar\Lucas Quadros\sistema\obj\Debug\net8.0\sistema.AssemblyInfo.cs
+C:\Users\lucia\OneDrive\Área de Trabalho\devStar\Lucas Quadros\sistema\obj\Debug\net8.0\sistema.csproj.CoreCompileInputs.cache
+C:\Users\lucia\OneDrive\Área de Trabalho\devStar\Lucas Quadros\sistema\obj\Debug\net8.0\sistema.sourcelink.json
+C:\Users\lucia\OneDrive\Área de Trabalho\devStar\Lucas Quadros\sistema\obj\Debug\net8.0\sistema.dll
+C:\Users\lucia\OneDrive\Área de Trabalho\devStar\Lucas Quadros\sistema\obj\Debug\net8.0\refint\sistema.dll
+C:\Users\lucia\OneDrive\Área de Trabalho\devStar\Lucas Quadros\sistema\obj\Debug\net8.0\sistema.pdb
+C:\Users\lucia\OneDrive\Área de Trabalho\devStar\Lucas Quadros\sistema\obj\Debug\net8.0\sistema.genruntimeconfig.cache
+C:\Users\lucia\OneDrive\Área de Trabalho\devStar\Lucas Quadros\sistema\obj\Debug\net8.0\ref\sistema.dll
