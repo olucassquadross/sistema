@@ -7,7 +7,24 @@ namespace SistemaMediaAlunos
         public string Nome { get; set; }
         public List<double> Notas { get; set; } = new List<double>();  // Inicialização da lista
 
-        
+        // Criação do construtor Aluno
+
+        public Aluno(string nome)
+        {
+            Nome = nome; // inicializando o atributo Nome
+        }
+
+
+        // Método para adcionar nota
+
+        public void AdicionarNota(double nota)
+        {
+            Notas.Add(nota);
+        }
+
+
+          // método para calcular a média das notas
+
         public double CalcularMedia()
         {
             double somaNotas = 0;
