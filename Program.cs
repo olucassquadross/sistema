@@ -7,7 +7,7 @@ namespace SistemaMediaAlunos
     {
         public static void Main(string[] args) 
         {
-            Console.WriteLine("Sistema de Cálculo de Média de Alunos");
+            Console.WriteLine("Média de Alunos");
 
             // Criar um objeto Aluno
             Aluno aluno = new Aluno();
