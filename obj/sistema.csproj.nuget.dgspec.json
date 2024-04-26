@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniel\\sistema\\sistema.csproj": {}
+    "C:\\Users\\Daniel\\Desktop\\sistema\\sistema.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daniel\\sistema\\sistema.csproj": {
+    "C:\\Users\\Daniel\\Desktop\\sistema\\sistema.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\sistema\\sistema.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel\\Desktop\\sistema\\sistema.csproj",
         "projectName": "sistema",
-        "projectPath": "C:\\Users\\Daniel\\sistema\\sistema.csproj",
+        "projectPath": "C:\\Users\\Daniel\\Desktop\\sistema\\sistema.csproj",
         "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\sistema\\obj\\",
+        "outputPath": "C:\\Users\\Daniel\\Desktop\\sistema\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
