@@ -4,7 +4,7 @@ namespace SistemaMediaAlunos
 {
     public class Aluno 
     {
-        public string Nome { get; set; }
+        public string Nome { get; private set;}
         private int _quantNotas;
         public List<double> Notas { get; set; } = new List<double>();  // Inicialização da lista
 
@@ -55,6 +55,11 @@ namespace SistemaMediaAlunos
             {
                 return "Reprovado";
             }
+        }
+
+        public void MudarNome(string nome)
+        {
+            Nome = nome;
         }
     }
 }
