@@ -7,37 +7,37 @@ namespace SistemaMediaAlunos
     {
         public static void Main(string[] args) 
         {
-            Console.WriteLine("Sistema de Cálculo de Média de Alunos");
+           Console.WriteLine("Sistema de Cálculo de Média de Alunos");
 
-            // Solicitação do nome do aluno
+
+             // solicita o nome do aluno
+
             Console.Write("Digite o nome do aluno: ");
-            aluno.Nome = Console.ReadLine();
+            string nome = Console.ReadLine();
 
-            // Criar um objeto Aluno e fornecer
-            // o parâmetro nome fornecido pelo susário
+            // Criação do objeto Aluno 
+            // passando o parâmentro nome fornecido pelo usuário
+
             Aluno aluno = new Aluno(nome);
 
-            
-
-            // Solicitação da quantidade de notas a serem inseridas
             Console.Write("Digite a quantidade de notas: ");
             int quantidadeNotas = int.Parse(Console.ReadLine());
 
-            // chamando o método AdicionarNota que vai adicionar
-            // a nota para o objeto aluno passando como parâmetro
-            // a nota  fornecida pelo usuário
-            aluno.AdicionarNota(nota);
-
-            // Laço para inserir as notas
+               // loop para adcionar as nootas para o aluno
+               // de uma só vez
             for (int i = 1; i <= quantidadeNotas; i++)
             {
+                // solicta a nota ao usuário
                 Console.Write($"Digite a {i}ª nota: ");
                 double nota = double.Parse(Console.ReadLine());
-                // Adiciona uma nota a lista de notas aluno
-                aluno.Notas.Add(nota);
+
+                // chama o método AdicionarNota 
+                // que adiciona uma nota passda como 
+                // parâmetro pelo usuário a lista de notas
+                // do aluno
+                aluno.AdicionarNota(nota);
             }
 
-            // Exibição da média e situação do aluno
             Console.WriteLine($"A média do aluno {aluno.Nome} é: {aluno.CalcularMedia().ToString("F2")}");
             Console.WriteLine($"Situação: {aluno.VerificarSituacao()}");
         }
