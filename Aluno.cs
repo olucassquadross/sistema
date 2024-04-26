@@ -14,13 +14,17 @@ namespace SistemaMediaAlunos
             this.Notas = new List<double>();
         }
 
-        public void QtdNotas(int qtdNotas)
+        public void InserirNota()
         {
-            for  (int i = 0; i < qtdNotas; i++)
+            Console.WriteLine("Digite a quantidade de notas para calcular a média");
+            int quantidade = int.Parse(Console.ReadLine());
+
+
+            for  (int i = 0; i < quantidade; i++)
             {
                 Console.Write($"Digite a {i}ª nota: ");
                 double nota = double.Parse(Console.ReadLine());
-                Notas.Add(nota);
+                this.Notas.Add(nota);
             }
         }
         public double CalcularMedia()

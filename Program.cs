@@ -10,7 +10,7 @@ namespace SistemaMediaAlunos
             Console.WriteLine("Sistema de Cálculo de Média de Alunos");
 
             // Criar um objeto Aluno
-            Aluno aluno = new Aluno();
+            Aluno aluno = new Aluno("Nome");
 
             // Solicitação do nome do aluno
             Console.Write("Digite o nome do aluno: ");
@@ -20,13 +20,8 @@ namespace SistemaMediaAlunos
             Console.Write("Digite a quantidade de notas: ");
             int quantidadeNotas = int.Parse(Console.ReadLine());
 
-            // Laço para inserir as notas
-            for (int i = 1; i <= quantidadeNotas; i++)
-            {
-                Console.Write($"Digite a {i}ª nota: ");
-                double nota = double.Parse(Console.ReadLine());
-                aluno.Notas.Add(nota);
-            }
+            //INserindo as notas do aluno
+            aluno.InserirNota();
 
             // Exibição da média e situação do aluno
             Console.WriteLine($"A média do aluno {aluno.Nome} é: {aluno.CalcularMedia().ToString("F2")}");
