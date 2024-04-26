@@ -7,7 +7,22 @@ namespace SistemaMediaAlunos
         public string Nome { get; set; }
         public List<double> Notas { get; set; } = new List<double>();  // Inicialização da lista
 
-        
+        // Construtores para inicializar Aluno e as Notas
+        public Aluno(string nome)
+        {
+            this.Nome = nome;
+            this.Notas = new List<double>();
+        }
+
+        public void QtdNotas(int qtdNotas)
+        {
+            for  (int i = 0; i < qtdNotas; i++)
+            {
+                Console.Write($"Digite a {i}ª nota: ");
+                double nota = double.Parse(Console.ReadLine());
+                Notas.Add(nota);
+            }
+        }
         public double CalcularMedia()
         {
             double somaNotas = 0;
