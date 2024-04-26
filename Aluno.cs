@@ -17,6 +17,23 @@ namespace SistemaMediaAlunos
             _quantNotas = int.Parse(Console.ReadLine());
         }
 
+        public void PegarNotas()
+        {
+            Console.Write("Informe a quantidade de notas: ");
+            _quantNotas = int.Parse(Console.ReadLine());
+            if (_quantNotas == 0)
+            {
+                Console.WriteLine("Erro! Quantidade de notas nula!");
+                return;
+            }
+            for (int i = 1; i <= _quantNotas; i++)
+            {
+                Console.Write($"Informe a {i}ª nota: ");
+                double nota = double.Parse(Console.ReadLine());
+                Notas.Add(nota);
+            }
+        }
+
         public double CalcularMedia()
         {
             double somaNotas = 0;
