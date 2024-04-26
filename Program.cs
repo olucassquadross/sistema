@@ -1,5 +1,4 @@
 ﻿using System;
-using SistemaMediaAlunos;  // Adicionando o using para o namespace onde Aluno está definido
 
 namespace SistemaMediaAlunos
 {
@@ -9,12 +8,12 @@ namespace SistemaMediaAlunos
         {
             Console.WriteLine("Média de Alunos");
 
-            // Criar um objeto Aluno
-            Aluno aluno = new Aluno();
-
             // Solicitação do nome do aluno
             Console.Write("Digite o nome do aluno: ");
-            aluno.Nome = Console.ReadLine();
+            string nome = Console.ReadLine();
+
+            // Criar um objeto Aluno usando o construtor
+            Aluno aluno = new Aluno(nome);
 
             // Solicitação da quantidade de notas a serem inseridas
             Console.Write("Digite a quantidade de notas: ");
@@ -25,7 +24,7 @@ namespace SistemaMediaAlunos
             {
                 Console.Write($"Digite a {i}ª nota: ");
                 double nota = double.Parse(Console.ReadLine());
-                aluno.Notas.Add(nota);
+                aluno.AdicionarNota(nota); // Delega a adição de notas para a classe Aluno
             }
 
             // Exibição da média e situação do aluno
@@ -34,3 +33,4 @@ namespace SistemaMediaAlunos
         }
     }
 }
+
