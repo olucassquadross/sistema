@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace SistemaMediaAlunos
 {
-    public class Aluno
+    class Aluno
     {
         public string Nome { get; set; }
         private List<double> notas;
@@ -10,38 +10,35 @@ namespace SistemaMediaAlunos
         public Aluno(string nome)
         {
             Nome = nome;
-            Notas = new List<double>();
+            notas = new List<double>();
         }
 
-        // Método para inserir notas
         public void InserirNota(double nota)
         {
-            Notas.Add(nota);
+            notas.Add(nota);
         }
 
         public double CalcularMedia()
         {
             if (notas.Count == 0)
                 return 0;
-            double somaNotas = 0;
-            foreach (var nota in Notas)
+            double soma = 0;
+            foreach (var nota in notas)
             {
-                somaNotas += nota;
+                soma += nota;
             }
-            return somaNotas / Notas.Count;
+            return soma / notas.Count;
         }
 
         public string VerificarSituacao()
         {
             double media = CalcularMedia();
             if (media >= 7)
-            {
                 return "Aprovado";
-            }
+            else if (media >= 5)
+                return "Recuperação";
             else
-            {
                 return "Reprovado";
-            }
         }
     }
 }
