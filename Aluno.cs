@@ -7,7 +7,11 @@ namespace SistemaMediaAlunos
         public string Nome { get; set; }
         public List<double> Notas { get; set; } = new List<double>();  // Inicialização da lista
 
-        
+        public Aluno(string nome)
+        {
+            Nome = nome;
+        }
+
         public double CalcularMedia()
         {
             double somaNotas = 0;
